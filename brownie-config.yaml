@@ -1,0 +1,6 @@
+# file you can create to tell brownie where to look for things
+
+# created file so that brownie will look in .env for private key
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY} # string surrounded by ${} gets transformed to env variable
